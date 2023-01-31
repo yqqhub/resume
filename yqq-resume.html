@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <title>杨青青-前端web简历</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      font-size: 14px;
+      color: #4f4f4f;
+    }
+
+    .app {
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .herd {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 30px
+    }
+
+    .h2-name {
+      font-size: 28px;
+      color: #000;
+
+    }
+
+    .herd-text {
+      text-align: center;
+      padding-top: 10px;
+    }
+
+    .introduce,
+    .skill,
+    .education {
+      margin-bottom: 20px;
+    }
+
+    .h4-title {
+      font-size: 20px;
+      padding-bottom: 6px;
+      color: #000;
+      border-bottom: 2px solid #000;
+    }
+
+    .introduce-p {
+      padding-top: 10px;
+    }
+
+    @media (min-width: 754px) {
+      .app {
+        width: 754px;
+        margin: 30px auto;
+        border: 1px solid #ccc;
+      }
+    }
+
+    .education-p {
+      padding-top: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .experience-p {
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+    .experience-span {
+      color: #000;
+      display: inline-block;
+    }
+
+    .experience-dl {
+      margin-bottom: 10px;
+
+    }
+
+    .experience-dt {
+      display: flex;
+      align-items: center;
+
+    }
+
+    .experience-dd {
+      line-height: 26px;
+      padding-left: 20px;
+
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="app">
+    <div class="herd">
+      <h2 class="h2-name">杨青青</h2>
+      <p class="herd-text">13725497456 | 3023161986@qq.com | 广州</p>
+      <p class="herd-text">2000-10 | 女</p>
+      <p class="herd-text">已离职 | web 前端开发</p>
+    </div>
+
+    <div class="introduce">
+      <h4 class="h4-title">个人介绍</h4>
+      <p class="introduce-p">乐观开朗，有良好的沟通能力，拥有较强的学习能力，易于融入集体，能与他人建立良好的关系。</p>
+      <p class="introduce-p">具有团队合作精神，创新意识，工作积极主动，对工作负责，可适应高强度的工作。</p>
+      <p class="introduce-p">有良好的编程与开发习惯，对自己写的代码质量有严格要求</p>
+    </div>
+
+    <div class="education">
+      <h4 class="h4-title">教育经历</h4>
+      <p class="education-p">
+        <span class="education-san">广州市广播电视大学</span>
+        <span class="education-san">计算机网络技术</span>
+        <span class="education-san">大专</span>
+      </p>
+    </div>
+
+    <div class="skill">
+      <h4 class="h4-title">技能总结</h4>
+      <p class="introduce-p">熟悉掌握 vue2、vue3 的使用，包括 vueCli、vueRouter、vuex、pinia 等</p>
+      <p class="introduce-p">熟练使用 uniApp 跨端开发框架及 原生小程序 开发</p>
+      <p class="introduce-p">熟悉掌握 ES6 及以上 语法，包括 async / await / promise / 解构赋值 等</p>
+      <p class="introduce-p">熟练运用 element、bootstrap，iView、uView、ant-design、layui 等 UI 组件库和echarts 图表库</p>
+      <p class="introduce-p">熟悉前后端分离技术，包括 ajax、webSocket、axios 等</p>
+      <p class="introduce-p">熟练使用 git、svn 代码管理工具</p>
+      <p class="introduce-p">熟练前端页面的快速制作技巧，能将设计图一比一还原</p>
+    </div>
+
+    <div class="experience">
+      <h4 class="h4-title">工作经历</h4>
+
+      <div class="experience-item">
+        <p class="experience-p">
+          <span class="experience-span">广东智挥官信息科技有限公司(广州)</span>
+          <span class="experience-span">web前端开发</span>
+        </p>
+        <dl class="experience-dl">
+          <dt class="experience-dt">校找找（App/小程序）</dt>
+          <dd class="experience-dd">1.一款校园招聘求职平台，面向大学生，方便学校和企业合作共同解决就业难题</dd>
+          <dd class="experience-dd">2.使用了 uniapp+uview+wxSdk+timWxSdk 技术开发 app 以及原生小程序开发小程序</dd>
+          <dd class="experience-dd">3.主要模块有求职招聘、线上双选会、空中直播宣讲、在线视频面试、即时通讯、移动支付等</dd>
+        </dl>
+        <dl class="experience-dl">
+          <dt class="experience-dt">校找找 pc（官网）</dt>
+          <dd class="experience-dd">1. 校园招聘的校招招聘平台，兼容多平台浏览器</dd>
+          <dd class="experience-dd">2. 使用了 html5+css3+javascript+webSocket 等技术开发</dd>
+          <dd class="experience-dd">3. 主要模块有求职招聘、线上双选会、空中直播宣讲、在线视频面试、即时通讯、扫码支付等</dd>
+        </dl>
+
+        <dl class="experience-dl">
+          <dt class="experience-dt">校企数字化管理平台（后台）</dt>
+          <dd class="experience-dd">1. 一款方便学校管理学生与企业的智能化信息平台</dd>
+          <dd class="experience-dd">2. 使用了 vue+elementUi 等技术开发</dd>
+          <dd class="experience-dd">3. 主要模块有学生信息管理，企业库，校招职位，实习就业，实习报告，校园招聘会等</dd>
+        </dl>
+        <dl class="experience-dl">
+          <dt class="experience-dt">百城千社企业-专项活动（数据大屏）</dt>
+          <dd class="experience-dd">展示参加活动的企业 招聘岗位 参会学生的数据</dd>
+        </dl>
+      </div>
+
+
+      <div class="experience-item">
+        <p class="experience-p">
+          <span class="experience-span">广州卓杰科技有限公司(广州)</span>
+          <span class="experience-span">web前端开发</span>
+        </p>
+        <dl class="experience-dl">
+          <dt class="experience-dt">和商汇（App）</dt>
+          <dd class="experience-dd">1. 一款比较智能的 app,和商汇热水器等设备可以通过和商汇 app 进行激活使用</dd>
+          <dd class="experience-dd">2. 使用了 uniapp+uview+native.js 等技术开发</dd>
+          <dd class="experience-dd">3. 主要功能地址定位，蓝牙，热点等</dd>
+        </dl>
+        <dl class="experience-dl">
+          <dt class="experience-dt">音响之家（App）</dt>
+          <dd class="experience-dd">1. 音响之家 app 让爱音响或者想了解音响的音友聚集一起，一起探讨音响，为自己喜欢的音响</dd>
+          <dd class="experience-dd">2. 使用了 uniapp+uview+腾讯云即时通讯等技术开发</dd>
+          <dd class="experience-dd">3. 主要功能地址定位，蓝牙，热点等</dd>
+        </dl>
+        <dl class="experience-dl">
+          <dt class="experience-dt">艾车客（App）</dt>
+          <dd class="experience-dd">1. 一款为车主服务的一个平台，该平台主要有保养 换轮胎 换机油 以及其他的爱车零件等</dd>
+          <dd class="experience-dd">2. 使用了 uniapp+uview 等技术开发</dd>
+          <dd class="experience-dd">3. 主要模块微信登录支付，支付宝支付，高德定位，app 分享积分总换礼品等</dd>
+        </dl>
+      </div>
+
+      <div class="experience-item">
+        <p class="experience-p">
+          <span class="experience-span">广州跨界商务管理有限公司(广州)</span>
+          <span class="experience-span">web前端开发</span>
+        </p>
+        <dl class="experience-dl">
+          <dt class="experience-dt">跨界教育（小程序）</dt>
+          <dd class="experience-dd">1. 主要分为两端，用户端跟管理端，这款小程序主要以课程、会议等方式展现 主要分为两端，用户端跟管理端，这款小程序主要以课程、会议等方式展现</dd>
+          <dd class="experience-dd">2. 使用了 uniapp+uview+webSocket 等框架技术开发</dd>
+          <dd class="experience-dd">3. 主要功能，登录，聊天，分享，课程、会议表单发布,倒计时等</dd>
+        </dl>
+        <dl class="experience-dl">
+          <dt class="experience-dt">支付管理（后台）</dt>
+          <dd class="experience-dd">1. 支付管理是跨界旗下数据管理后台，支出收益等数据流向管理</dd>
+          <dd class="experience-dd">2. 它使用了 vue2+Ant Design 等技术框架开发</dd>
+          <dd class="experience-dd">3. 主要功能增删改查，登录等</dd>
+        </dl>
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+</body>
+
+</html>
